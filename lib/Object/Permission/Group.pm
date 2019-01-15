@@ -58,7 +58,7 @@ at run time if that is required.
 
 use Object::Permission;
 
-class Object::Permission::Group:ver<0.0.2>:auth<github:jonathanstowe> does Object::Permission::User {
+class Object::Permission::Group:ver<0.0.3>:auth<github:jonathanstowe>:api<1.0> does Object::Permission::User {
     use Unix::Groups;
 
     has Unix::Groups $!groups;
