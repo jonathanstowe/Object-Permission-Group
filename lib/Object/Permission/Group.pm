@@ -1,4 +1,4 @@
-use v6.c;
+use v6;
 
 =begin pod
 
@@ -71,7 +71,6 @@ class Object::Permission::Group:ver<0.0.2>:auth<github:jonathanstowe> does Objec
             self.permissions.push($group.Str);
         }
     }
-
 }
 
 $*AUTH-USER = Object::Permission::Group.new;
