@@ -17,19 +17,20 @@ Object helper for [Object::Permission](https://github.com/jonathanstowe/Object-P
 
 ## Description
 
-This provides a simple implementation of ```Object::Permission::User``` to
-be used with [Object::Permission](https://github.com/jonathanstowe/Object-Permission) which derives the permissions for the ```$*AUTH-USER``` from the
-users unix group membership.
+This provides a simple implementation of
+```Object::Permission::User``` to be used with
+[Object::Permission](https://github.com/jonathanstowe/Object-Permission)
+which derives the permissions for the ```$*AUTH-USER``` from the users
+unix group membership.
 
-By default ```$*AUTH-USER``` is initialised based on the value of ```$*USER```
-(i.e. the effective user,) but it can be set manually with the permissions
-of an arbitrary user (as in the second example above.)
+By default ```$*AUTH-USER``` is initialised based on the value of
+```$*USER``` (i.e. the effective user,) but it can be set manually with
+the permissions of an arbitrary user (as in the second example above.)
 
 
 ## Installation
 
-Assuming you have a working Rakudo Perl 6 installation you should be able to
-install this with *zef* :
+Assuming you have a working Rakudo installation you should be able to install this with *zef* :
 
     # From the source directory
    
@@ -51,4 +52,4 @@ This is free software.
 
 Please see the [LICENCE](LICENCE) file in the distribution
 
-© Jonathan Stowe 2015, 2016, 2017, 2019
+© Jonathan Stowe 2015, 2016, 2017, 2019, 2020

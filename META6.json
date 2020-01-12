@@ -1,14 +1,15 @@
 {
   "name": "Object::Permission::Group",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "auth": "github:jonathanstowe",
   "api": "1.0",
-  "source-url": "git://github.com/jonathanstowe/Object-Permission-Group.git",
+  "source-url": "https://github.com/jonathanstowe/Object-Permission-Group.git",
   "support": {
-    "source": "git://github.com/jonathanstowe/Object-Permission-Group.git",
+    "source": "https://github.com/jonathanstowe/Object-Permission-Group.git",
     "bugtracker": "https://github.com/jonathanstowe/Object-Permission-Group/issues"
   },
   "perl": "6.*",
+  "raku": "6.*",
   "resources": [
   ],
   "build-depends": [
@@ -36,5 +37,5 @@
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "description": "Object helper for Object::Permission using unix groups.",
-  "meta-version": "0"
+  "meta-version": "1"
 }
