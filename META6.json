@@ -1,8 +1,9 @@
 {
   "name": "Object::Permission::Group",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "auth": "github:jonathanstowe",
   "api": "1.0",
+  "description": "Object helper for Object::Permission using unix groups.",
   "source-url": "https://github.com/jonathanstowe/Object-Permission-Group.git",
   "support": {
     "source": "https://github.com/jonathanstowe/Object-Permission-Group.git",
@@ -36,6 +37,5 @@
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
-  "description": "Object helper for Object::Permission using unix groups.",
   "meta-version": "1"
 }

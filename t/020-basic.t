@@ -1,4 +1,4 @@
-#!perl6
+#!raku
 
 use v6;
 
@@ -14,4 +14,4 @@ my @groups = Unix::Groups.new.groups-for-user($*USER.Str).map(-> $g { $g.Str });
 ok $*AUTH-USER.permissions.sort.list ~~ @groups.sort.list, "and the permissions are the same as the users groups";
 
 done-testing;
-# vim: expandtab shiftwidth=4 ft=perl6
+# vim: expandtab shiftwidth=4 ft=raku

@@ -75,4 +75,4 @@ class Object::Permission::Group:ver<0.0.4>:auth<github:jonathanstowe>:api<1.0> d
 
 $*AUTH-USER = Object::Permission::Group.new;
 
-# vim: expandtab shiftwidth=4 ft=perl6
+# vim: expandtab shiftwidth=4 ft=raku
