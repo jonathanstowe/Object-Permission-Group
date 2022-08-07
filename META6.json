@@ -1,25 +1,10 @@
 {
-  "name": "Object::Permission::Group",
-  "version": "0.0.5",
-  "auth": "github:jonathanstowe",
-  "api": "1.0",
-  "description": "Object helper for Object::Permission using unix groups.",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "auth": "zef:jonathanstowe",
   "source-url": "https://github.com/jonathanstowe/Object-Permission-Group.git",
-  "support": {
-    "source": "https://github.com/jonathanstowe/Object-Permission-Group.git",
-    "bugtracker": "https://github.com/jonathanstowe/Object-Permission-Group/issues"
-  },
-  "perl": "6.*",
-  "raku": "6.*",
-  "resources": [
-  ],
-  "build-depends": [
-  ],
-  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "depends": [
-    "Object::Permission",
-    "Unix::Groups"
-  ],
+  "license": "Artistic-2.0",
   "tags": [
     "devel",
     "authorisation",
@@ -27,15 +12,29 @@
     "user",
     "unix"
   ],
-  "license": "Artistic-2.0",
-  "test-depends": [
-    "Test"
+  "depends": [
+    "Object::Permission",
+    "Unix::Groups"
   ],
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "support": {
+    "source": "https://github.com/jonathanstowe/Object-Permission-Group.git",
+    "bugtracker": "https://github.com/jonathanstowe/Object-Permission-Group/issues"
+  },
+  "version": "0.0.6",
+  "description": "Object helper for Object::Permission using unix groups.",
+  "name": "Object::Permission::Group",
+  "raku": "6.*",
   "provides": {
     "Object::Permission::Group": "lib/Object/Permission/Group.pm"
   },
-  "authors": [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  "build-depends": [
   ],
-  "meta-version": "1"
+  "meta-version": "1",
+  "test-depends": [
+    "Test"
+  ],
+  "resources": [
+  ],
+  "api": "1.0"
 }
