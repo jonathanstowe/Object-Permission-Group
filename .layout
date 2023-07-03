@@ -45,7 +45,7 @@
               "children": [
                 {
                   "type": "file",
-                  "name": "Group.pm"
+                  "name": "Group.rakumod"
                 }
               ],
               "purpose": null,

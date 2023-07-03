@@ -21,12 +21,12 @@
     "source": "https://github.com/jonathanstowe/Object-Permission-Group.git",
     "bugtracker": "https://github.com/jonathanstowe/Object-Permission-Group/issues"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Object helper for Object::Permission using unix groups.",
   "name": "Object::Permission::Group",
   "raku": "6.*",
   "provides": {
-    "Object::Permission::Group": "lib/Object/Permission/Group.pm"
+    "Object::Permission::Group": "lib/Object/Permission/Group.rakumod"
   },
   "build-depends": [
   ],
